@@ -32,6 +32,13 @@ const Array=[
         time:1500,
 
     },
+    {
+        location:"Roasted Chicken",
+        // desc:"This beautiful Temple dedicated to Goddess Padmavati is situated in Tiruchanur, a small town near Tirupati.",
+        url:"https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        time:1500,
+
+    },
 ]
 
 export default Array

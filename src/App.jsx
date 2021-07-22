@@ -5,6 +5,8 @@ import { CssBaseline } from '@material-ui/core';
 import Header from './components/Header';
 import Place from './components/PlaceTovisit';
 import About from './components/About';
+import Contact from './components/contact';
+
 
 
 const useStyles=makeStyles((theme)=>({
@@ -18,14 +20,14 @@ const useStyles=makeStyles((theme)=>({
 
 function App() {
   const classes =useStyles();
-
+ 
   return <div className={classes.root}>
    
     <CssBaseline/> 
     <Header/>
     <About/>
-    
     <Place/>
+    <Contact/>
 
     
   </div>

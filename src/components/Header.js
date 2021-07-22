@@ -107,7 +107,7 @@ function Header() {
             <h1 className={classes.appbarTitle}>MENU</h1>
             </Scroll>
          
-          <Scroll to="place-to-visit" smooth={true}>
+          <Scroll to="contact" smooth={true}>
           <h1 className={classes.appbarTitle}>CONTACT</h1>
             </Scroll>
          
