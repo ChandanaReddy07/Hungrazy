@@ -11,8 +11,8 @@ import { Collapse } from '@material-ui/core';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 245,
-    minWidth:200,
+    maxWidth:250,
+    minWidth:245,
     backgroundColor:'(1,1,1,0.5)rgba',
     margin:'20px',
     height:250
@@ -52,7 +52,7 @@ export default function ImageCard({ place,checked }) {
           title="Contemplative Reptile"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2" className={classes.title}>
+          <Typography style={{fontSize:'1rem'}} gutterBottom variant="h5" component="h3" className={classes.title}>
             {place.location}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p" className={classes.desc}>
