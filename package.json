@@ -2,7 +2,6 @@
   "name": "day21",
   "version": "0.1.0",
   "homepage": "https://ChandanaReddy07.github.io/Hungrazy",
-
   "private": true,
   "dependencies": {
     "14": "^3.1.6",
