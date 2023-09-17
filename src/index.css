@@ -43,10 +43,17 @@ code {
     width:100%;
 
   }
+  #contact{
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text horizontally */
+    margin: auto;
+    padding: 0;
+  }
   #img1{
       
       width:80%;
-      height:400px;
+      height:350px;
       margin-top: 0;
   }
   #img2{
@@ -64,6 +71,10 @@ code {
   #appname{
    
     font-size: 1rem;
+  }
+
+  #appbarTitle{
+    font-size: 10px;
   }
 
 

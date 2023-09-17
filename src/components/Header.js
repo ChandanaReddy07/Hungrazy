@@ -38,9 +38,10 @@ const useStyles = makeStyles((theme) => ({
   },
 
   appbarWrapper: {
-    width: "80%",
+    width: "90%",
     margin: "0 auto",
     display:"flex",
+    // background:"blue"
 
   
   },
@@ -78,19 +79,19 @@ function Header() {
         <Toolbar className={classes.appbarWrapper}>
           <h1 className={classes.appname} id="appname">HUNGR<span style={{color:"green"}}>AZy</span></h1>
           <Scroll to="home" smooth={true}>
-          <h1 className={classes.appbarTitle}>HOME</h1>
+          <h1 className={classes.appbarTitle} id="appbarTitle">HOME</h1>
           </Scroll>
          
           <Scroll to="place-to-visit" smooth={true}>
-           <h1 className={classes.appbarTitle}>ABOUT</h1>
+           <h1 className={classes.appbarTitle}  id="appbarTitle">ABOUT</h1>
             </Scroll>
          
            <Scroll to="khanaa" smooth={true}>
-            <h1 className={classes.appbarTitle}>MENU</h1>
+            <h1 className={classes.appbarTitle}  id="appbarTitle">MENU</h1>
             </Scroll>
          
           <Scroll to="contact" smooth={true}>
-          <h1 className={classes.appbarTitle}>CONTACT</h1>
+          <h1 className={classes.appbarTitle}  id="appbarTitle">CONTACT</h1>
             </Scroll>
          
          

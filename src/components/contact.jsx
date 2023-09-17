@@ -43,7 +43,7 @@ function Contact() {
   return (
   
       <div className={classes.container} id="contact">
-        <div className={classes.container1}>
+        <div className={classes.container1} id="container1">
           <span className={classes.colorText}>Let's talk</span>
           <br />
 
@@ -57,7 +57,7 @@ function Contact() {
             will attend you quickly, with our 24/7 chat service.
           </span>
         </div>
-        <Button variant="contained" color="secondary">
+        <Button variant="contained" style={{margin:"30px 0 30px 0"}} color="secondary">
           Contact us now
         </Button>
       </div>

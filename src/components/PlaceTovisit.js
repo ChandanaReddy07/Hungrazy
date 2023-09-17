@@ -35,11 +35,12 @@ const useStyles=makeStyles((theme)=>({
     fontFamily: 'Roboto Condensed',
   },
   container:{
-    width:"80%",
+    width:"90%",
     display:"flex",
     alignItems: "center",
     justifyContent:"center" ,
-    flexDirection:"column"
+    flexDirection:"column",
+    margin:"50px auto"
  }
  
 }))
@@ -47,8 +48,7 @@ const useStyles=makeStyles((theme)=>({
 function Place() {
   const classes =useStyles();
   //  const checked = useWindowPosition('header');
-  return <div className={classes.root} id='khanaa'>
-    <div className={classes.container}>
+  return <div className={classes.container}  id='khanaa'>
       <div>.....</div>
        <span className={classes.colorText}>Special</span>
       <h3 className={classes.title}>Menu of the week</h3>
@@ -56,7 +56,7 @@ function Place() {
         {Array.map(item => <ImageCard  place={item}/>)} 
       </Carousel>  
       </div>  
-  </div>
+  
 }
 
 export default Place;
