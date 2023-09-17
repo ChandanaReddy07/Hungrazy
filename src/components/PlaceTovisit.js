@@ -35,7 +35,7 @@ const useStyles=makeStyles((theme)=>({
     fontFamily: 'Roboto Condensed',
   },
   container:{
-    width:"1000px",
+    width:"80%",
     display:"flex",
     alignItems: "center",
     justifyContent:"center" ,
@@ -52,7 +52,7 @@ function Place() {
       <div>.....</div>
        <span className={classes.colorText}>Special</span>
       <h3 className={classes.title}>Menu of the week</h3>
-      <Carousel style={{width:"1000px"}} breakPoints={breakPoints} >
+      <Carousel breakPoints={breakPoints} >
         {Array.map(item => <ImageCard  place={item}/>)} 
       </Carousel>  
       </div>  

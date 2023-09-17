@@ -10,15 +10,6 @@ import Typography from "@material-ui/core/Typography";
 import { Collapse } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    height: "100vh",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    [theme.breakpoints.down("md")]: {
-      flexDirection: "column",
-    },
-  },
 
   colorText: {
     color: "green",
@@ -33,33 +24,25 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "Roboto Condensed",
   },
   container: {
-    width: "1000px",
+    width: "100%",
     display: "flex",
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "space-between",
+    padding:"60px"
   },
   container1: {
-    padding: "100px",
+    padding: "80px",
+    paddingLeft:"0"
   },
-  goDown: {
-    color: "#5AFF3D",
-    fontSize: "2rem",
-  },
-  image: {
-    flexGrow: "3",
-    width: "900px",
-    height: "440px",
-    borderRadius: "8px",
-    marginTop: "100px",
-  },
+
 }));
 
 function Contact() {
   const classes = useStyles();
-  //  const checked = useWindowPosition('header');
+ 
   return (
-    <div className={classes.root} id="contact">
-      <div className={classes.container}>
+  
+      <div className={classes.container} id="contact">
         <div className={classes.container1}>
           <span className={classes.colorText}>Let's talk</span>
           <br />
@@ -78,7 +61,7 @@ function Contact() {
           Contact us now
         </Button>
       </div>
-    </div>
+    
   );
 }
 
